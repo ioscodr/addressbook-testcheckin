@@ -165,8 +165,8 @@
 		34ED03461AAA801B00798608 = {
 			isa = PBXGroup;
 			children = (
-				34ED03511AAA801B00798608 /* AddressBookTest */,
-				34ED036E1AAA801B00798608 /* AddressBookTestTests */,
+				34ED03511AAA801B00798608 /* AddressBook */,
+				34ED036E1AAA801B00798608 /* AddressBookTests */,
 				34ED03501AAA801B00798608 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34ED03511AAA801B00798608 /* AddressBookTest */ = {
+		34ED03511AAA801B00798608 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
 				34ED03561AAA801B00798608 /* AppDelegate.h */,
@@ -195,6 +195,7 @@
 				34ED03641AAA801B00798608 /* LaunchScreen.xib */,
 				34ED03521AAA801B00798608 /* Supporting Files */,
 			);
+			name = AddressBook;
 			path = AddressBookTest;
 			sourceTree = "<group>";
 		};
@@ -210,7 +211,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		34ED036E1AAA801B00798608 /* AddressBookTestTests */ = {
+		34ED036E1AAA801B00798608 /* AddressBookTests */ = {
 			isa = PBXGroup;
 			children = (
 				342BEFA91AB511A600680F93 /* UserTests.h */,
@@ -233,6 +234,7 @@
 				342BEF311AAF78C600680F93 /* UtilityTests.m */,
 				34ED036F1AAA801B00798608 /* Supporting Files */,
 			);
+			name = AddressBookTests;
 			path = AddressBookTestTests;
 			sourceTree = "<group>";
 		};
