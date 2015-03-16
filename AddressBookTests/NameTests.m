@@ -42,21 +42,20 @@
 
 - (void)testThatNameHasFirstName {
 
-    //Put code here
+    // This is a method stub - finish it!
 
 }
 
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testThatNameHasLastName {
+    
+    // This is a method stub - finish it!
+    
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testThatNameHasTitle {
+    
+    // This is a method stub - finish it!
+    
 }
 
 @end

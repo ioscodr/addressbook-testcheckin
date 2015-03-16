@@ -32,46 +32,47 @@
 }
 
 - (void)testUsersFromJson {
-    // This is an example of a functional test case.
     
+    // This is a method stub - finish it!
     
-    XCTAssert(YES, @"Pass");
 }
 
 - (void)testRealJSONWithoutUsersIsError {
-//    XCTAssertNil([questionBuilder questionsFromJSON: noQuestionsJSONString error: NULL], @"No questions to parse in this JSON");
+    
+    // This is a method stub - finish it!
+    
 }
 
 
 - (void)testRealJSONWithoutUsersReturnsMissingDataError {
-//    NSError *error = nil;
-//    [questionBuilder questionsFromJSON: noQuestionsJSONString error: &error];
-//    XCTAssertEqual([error code], QuestionBuilderMissingDataError, @"This case should not be an invalid JSON error");
+
+    // This is a method stub - finish it!
+    
 }
 
 
 - (void)testQuestionCreatedFromJSONHasPropertiesPresentedInJSON {
+
+    // This is a method stub - finish it!
+    
 }
 
 - (void)testEmptyQuestionsArrayDoesNotCrash {
-//    XCTAssertNoThrow([questionBuilder fillInDetailsForQuestion: question fromJSON: emptyQuestionsArray], @"Don't throw if no questions are found");
+
+    // This is a method stub - finish it!
+    
 }
 
 - (void)testSortUsersByFirstName {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+
+    // This is a method stub - finish it!
+    
 }
 
 - (void)testSortUsersByFirstNameDoesNotCrashWithNoName {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+    // This is a method stub - finish it!
+    
 }
 
 @end

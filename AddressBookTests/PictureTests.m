@@ -42,17 +42,25 @@
 
 - (void)testPictureHasLargeUrl {
 
+    // This is a method stub - finish it!
+
 }
 
 - (void)testPictureHasMediumUrl {
-    
+
+    // This is a method stub - finish it!
+
 }
 
 - (void)testPictureHasThumbnailUrl {
-    
+
+    // This is a method stub - finish it!
+
 }
 
 - (void)testEmptyPicturesDictDoesNotCrash {
+
+    // This is a method stub - finish it!
 
 }
 

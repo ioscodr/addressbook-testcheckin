@@ -38,7 +38,7 @@
 
 - (void)testThatLocationExists {
    
-    //Put code here
+    // This is a method stub - finish it!
     XCTAssertNotNil(location, @"should be able to create a Location instance");
 
 }
