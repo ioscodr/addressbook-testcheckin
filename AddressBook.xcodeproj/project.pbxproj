@@ -196,8 +196,8 @@
 				34ED03521AAA801B00798608 /* Supporting Files */,
 			);
 			name = AddressBook;
-			path = AddressBookTest;
-			sourceTree = "<group>";
+			path = /Users/lzh/Work/AddressBook/AddressBook;
+			sourceTree = "<absolute>";
 		};
 		34ED03521AAA801B00798608 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -234,8 +234,7 @@
 				342BEF311AAF78C600680F93 /* UtilityTests.m */,
 				34ED036F1AAA801B00798608 /* Supporting Files */,
 			);
-			name = AddressBookTests;
-			path = AddressBookTestTests;
+			path = AddressBookTests;
 			sourceTree = "<group>";
 		};
 		34ED036F1AAA801B00798608 /* Supporting Files */ = {
@@ -501,7 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AddressBookTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AddressBook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = AddressBook;
@@ -512,7 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AddressBookTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AddressBook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = AddressBook;
@@ -531,7 +530,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AddressBookTestTests/Info.plist;
+				INFOPLIST_FILE = AddressBookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AddressBookTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBook.app/AddressBook";
@@ -546,7 +545,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AddressBookTestTests/Info.plist;
+				INFOPLIST_FILE = AddressBookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AddressBookTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBook.app/AddressBook";
